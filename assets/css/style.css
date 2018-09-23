@@ -1,0 +1,144 @@
+p {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.title {
+
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5px; 
+}
+
+.holdIt {
+
+    background: rgba(14, 185, 14, 0.397);
+    min-height: 50vh;
+    width: 100%;
+    z-index: 1;
+}
+
+.wrapper {
+
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.719);
+    border: 2px solid #0e5a04fa;
+    height: 70vh;
+    width: 100%;
+    text-align: center;
+    overflow: initial;
+}
+
+#countdownBox {
+
+    position: fixed;
+    bottom: 20vh;
+}
+
+#imgLeft {
+
+    position: fixed;
+    left: 2vw;
+    top: 40vh;
+    width: 10vw;
+    height: auto;
+
+}
+
+#imgRight {
+
+    position: fixed;
+    right: 2vw;
+    top: 40vh;
+    width: 9vw;
+    height: auto;
+
+}
+
+#imgTop {
+
+    position: fixed;
+    right: -10vw;
+    top: 0vh;
+    width: 30vw;
+    height: auto;
+
+}
+
+body {
+
+    height: 100vh;
+    margin: 0;
+    background-image: url("../images/pokebackground.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.bg {
+    background-color: black;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+.answerChoice {
+
+    border: 2px solid rgb(179, 4, 4);
+    border-radius: 5%;
+    width: 30vw;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 22px;
+    background-color: rgb(238, 5, 5);
+    position: relative;
+    left: 20vw;
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+
+}
+
+#answerBlock {
+    font-size: 20px;
+}
+
+#questionblock {
+    font-size: 26px;
+    margin-top: 8px;
+}
+
+#countdown {
+    font-size: 20px;
+    position: relative;
+    left: 0vw;
+    bottom: -2vh;
+}
+
+.visuals {
+    width: 15vw;
+    height: auto;
+}
+
+#start {
+
+    width: 50vw;
+    height: auto;
+    font-size: 50px;
+    position: fixed;
+    top: 45vh;
+    left: 25vw;
+}
+
+#restart {
+    width: 30vw;
+    height: auto;
+    font-size: 50px;
+    position: fixed;
+    top: 70vh;
+    left: 34vw;
+    z-index: 1;
+}
