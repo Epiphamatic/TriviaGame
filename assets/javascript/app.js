@@ -101,7 +101,12 @@ let background = new Audio("./assets/audio/hoenn.mp3");
 
 let rattata = new Audio("./assets/audio/rattata.mp3");
 
-let start = new Audio("./assets/audio/start.mp3");
+let start = new Audio("./assets/audio/startcut.mp3");
+
+// Set it so it loops
+
+background.volume = .5;
+background.loop = true;
     
     
 // Hide the restart button at the beginning of the game to bring up later
@@ -119,7 +124,12 @@ $("#start").on("click", function () {
 
     start.play();
 
-    background.play();
+    function backgroundPlay() {
+
+        background.play();
+    };
+
+    setTimeout(backgroundPlay, 2000);
 
     // Using black background for intro flashing
 
