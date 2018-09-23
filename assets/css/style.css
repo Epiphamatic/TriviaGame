@@ -96,7 +96,7 @@ body {
     font-size: 22px;
     background-color: rgb(238, 5, 5);
     position: relative;
-    left: 0vw;
+    left: 24vw;
     padding-top: 5px; 
     padding-bottom: 5px; 
 
@@ -125,12 +125,12 @@ body {
 
 #start {
 
-    width: 50vw;
+    width: 40vw;
     height: auto;
     font-size: 50px;
     position: fixed;
     top: 45vh;
-    left: 25vw;
+    left: 29vw;
 }
 
 #restart {
